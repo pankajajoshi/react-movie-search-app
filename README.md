@@ -1,3 +1,10 @@
+<h1>Movie Search App</h1>
+
+<h3>Screenshot Movie App</h3>
+<img src="moviesearchapp.png" />
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
