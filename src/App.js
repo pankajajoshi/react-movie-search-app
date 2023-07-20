@@ -4,6 +4,14 @@ import './App.css';
 import MovieDisplay from './components/MovieDisplay';
 import Form from './components/Form';
 function App() {
+
+  const movieList = [
+    "Donnie Darco",
+    "Home Alone",
+    "Black Panther",
+    "The Dark Knight",
+    "Spider-Man"
+  ]
    //variable with your apiKey
    const apiKey = "3c4f1566";
     //State to hold movie data
@@ -27,7 +35,7 @@ function App() {
   }
 }
   useEffect(() => {
-    getMovie("God Father");
+    getMovie(movieList[Math.floor(Math.random() *movieList.length)]);
   },[]);
 
   return (

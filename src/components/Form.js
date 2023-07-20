@@ -20,14 +20,16 @@ export default function Form (props) {
     //The component must return some JSX
     return (
         <div>
+           <h1>Enter Movie Name</h1>
         <form onSubmit={handleSubmit}>
-        <input
+         
+        <input className="inputfield"
           type="text"
           name="searchterm"
           onChange={handleChange}
           value={formData.searchterm}
         />
-        <input type="submit" value="submit" />
+        <input className="button" type="submit" value="submit" />
       </form>
       </div>
 
